@@ -12,8 +12,6 @@ h1 {
 form {   
     padding: 30px 30px 30px 30px;
     max-width: 1000px;
-    display: flex;
-    justify-content: center;
     background-color: antiquewhite;
     border-radius: 30px;
 }
