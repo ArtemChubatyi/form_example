@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+        <fieldset>
+            <legend>Основная информация</legend>
+            <p><label>Имя <input type="text" name="name" placeholder="Цынь" required></label></p>
+            <p><label>Фамилия <input type="text" name="surname" placeholder="Ши Хуан-ди" autocomplete="off" required></label></p>
+            <p><label>Email <input type="email" name="email" value="Qínshǐhuáng@greatchina.cn"></label></p>
+            <p><label>Возраст <input type="number" name="age" min="18"></label></p>
+            <p><label>Пароль <input type="password" name="password" minlength="4"></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Данные о ...</legend>
+            <p><label>Есть опыт работы<input type="radio" name="expirience" value="есть"></label></p>
+            <p><label>Нет опыта работы<input type="radio" name="expirience" value="нет"></label></p>
+            <p><label>Данные  1 <input type="checkbox" name="yearsofexperience"></label></p>
+            <p><label>Данные  2 <input type="checkbox" name="yearsofexperience2"></label></p>
+            <p><label>Данные  3 <input type="checkbox" name="yearsofexperience3"></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Данные 2 о ...</legend>
+            <p><label>Бегунок <input type="range" name="range" min="1" max="12"></label></p>
+            <p><label>Время <input type="time" name="time"></label></p>
+            <p><label>Выпадающий список <select name="select">
+                <option value="Вариант 1">Вариант 1</option>
+                <option value="Вариант 2">Вариант 2</option>
+            </select></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Данные 3 о ...</legend>
+            <p><label>Цвет <input type="color" name="color"></label></p>
+            <p><label>Дата <input type="date" name="data"></label></p>
+            <textarea name="textarea" cols="30" rows="10"></textarea>
+            <p><label>Disabled <input type="text" name="disabled" disabled></label></p>
+            <p><input type="submit" value="Отправить"></p>
+        </fieldset>
+    </form>
+    </div>
+    <link rel="stylesheet" href="main.css">
+</body>
+</html>

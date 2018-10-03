@@ -1,0 +1,39 @@
+body {
+    background-color: #ff9c70;
+    font-style: italic;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+form {   
+    padding: 30px 30px 30px 30px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+fieldset {
+    border-radius: 30px;
+    border: 1px solid white;
+}
+p {
+    margin-top: 15px; 
+    display: flex;
+    justify-content: center;
+}
+input, select {
+    background-color: white;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+textarea {
+    border-style: none;
+    border-radius: 10px;
+}
